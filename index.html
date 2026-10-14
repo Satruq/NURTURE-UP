@@ -1,0 +1,40 @@
+<!doctype html><html lang="id"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f5f3ff"><title>RuangParenting</title><link rel="stylesheet" href="style.css"></head><body><main class="app-shell">
+<section class="page active" id="home-page">
+    <header class="home-head">
+        <div>
+            <p>Selamat Pagi,</p>
+            <h1 id="greeting">Mama Fiha! 👋</h1>
+        </div>
+        <div class="head-actions">
+            <button class="circle" id="notifications">🔔</button>
+            <div class="avatar small">👩🏻</div>
+        </div>
+    </header>
+    <article class="xp-card">
+        <div class="ring">
+            <b>75%</b>
+        </div>
+        <div>
+            <span class="streak">🔥 
+                <b>7 Hari!</b>
+            </span>
+            <h2>
+                <span id="xp">1.450</span> XP</h2>
+                <p>
+                    <span id="needed">50</span> 
+                    XP lagi menuju Level 5</p>
+                </div>
+            </article>
+            <section class="section">
+                <h2>Misi Hari Ini</h2>
+                <div class="missions">
+                    <button class="mission" data-xp="10">
+                        <span class="mission-icon lilac">♡</span>
+                        <span class="mission-text">
+                            <b>Sesi Emotion Talk 10 Menit</b>
+                            <small>+10 XP</small>
+                        </span><i>›</i></button><button class="mission" data-xp="15"><span class="mission-icon blue">✿</span><span class="mission-text"><b>Rangsangan Motorik Halus</b><small>+15 XP</small></span><i>›</i></button><button class="mission" data-xp="10"><span class="mission-icon peach">♡</span><span class="mission-text"><b>Puji 3 Perilaku Positif</b><small>+10 XP</small></span><i>›</i></button></div><button class="text-link" id="all-missions">Lihat Semua Misi →</button></section><section class="section recommendations"><h2>Rekomendasi Video RuangParenting</h2><div class="horizontal"><article><button class="thumb thumb1" data-video="Menghadapi Tantrum"><span class="play">▷</span><span class="duration">3 Min</span></button><b>Menghadapi Tantrum</b></article><article><button class="thumb thumb2" data-video="Stimulasi Motorik"><span class="play">▷</span><span class="duration">5 Min</span></button><b>Stimulasi Motorik</b></article></div></section></section>
+<section class="page" id="coach-page"><header class="subhead"><button data-page="home" class="back">‹</button><h1>NLP COACH</h1><button class="chat-icon" id="new-chat">🗩</button></header><label class="search coach-search"><span>⌕</span><input id="chat-search" placeholder="Cari riwayat konseling..."></label><div class="chat-area" id="chat-area"><div class="chat-row user"><div class="bubble purple">Bagaimana cara menolak anak yang terus meminta es krim tanpa berteriak marah?<time>10:12 AM</time></div></div><div class="chat-row"><div class="bot-avatar">⚙</div><div class="bubble white">Gunakan teknik NLP “Positive Reframing”, Mama. Hindari larangan langsung yang memicu penolakan.<div class="reframe"><b>NLP REFRAMING CONTOH</b><p class="negative">⊗　“Jangan lari-lari!”</p><span>↓</span><p class="positive">✓　“Ayo jalan pelan-pelan.”</p></div><time>10:13 AM</time></div></div><div class="chat-row user"></div></div><form class="composer" id="chat-form"><input id="chat-input" placeholder="Mulai Konseling"><button type="button" id="mic">🎙️</button><button type="submit" class="send">➤</button></form><p class="disclaimer">Contoh edukasi parenting, bukan pengganti konsultasi profesional.</p></section>
+<section class="page" id="videos-page"><header class="video-header"><h1>RUANGPARENTING VIDEOS</h1></header><label class="search video-search"><span>⌕</span><input id="video-search" placeholder="Cari topik parenting, tantrum, dll..."></label><div class="filters"><button class="selected" data-age="Semua">Semua</button><button data-age="0-6 Bln">0-6 Bln</button><button data-age="6-12 Bln">6-12 Bln</button><button data-age="1-3 Thn">1-3 Thn</button><button data-age="3-5 Thn">3-5 Thn</button></div><section class="video-group"><h2>Video Populer</h2><div class="video-grid" id="popular"></div></section><section class="video-group"><h2>Praktik Roleplay</h2><div class="video-grid" id="roleplay"></div></section><section class="video-group"><h2>Rekomendasi</h2><div class="video-grid" id="recommended"></div></section></section>
+<section class="page" id="profile-page"><header class="profile-header"><h1>PROFIL PARENTS</h1></header><div class="profile-hero"><div class="avatar large">👩🏻</div><h2 id="profile-name">Mama Fiha</h2></div><button class="child-card" id="edit-child"><span class="child-icon">☻</span><span><small>Identitas Anak Terdaftar</small><b id="child-summary">Doni, 10 Bulan</b></span><i>›</i></button><article class="level-card"><div><b>🏆　Level 4 (Pioneer Parent)</b><strong><span id="profile-xp">1.450</span> / 1.500 XP</strong></div><div class="track"><span id="track-fill"></span></div></article><div class="settings"><button data-setting="Identitas & Data Child"><span>⊗</span><b>Identitas &amp; Data Child</b><i>›</i></button><button data-setting="Riwayat Streak & Achievement"><span>♙</span><b>Riwayat Streak &amp; Achievement</b><i>›</i></button><button data-setting="Pengaturan AI Companion"><span>▣</span><b>Pengaturan AI Companion</b><i>›</i></button><button data-setting="Privasi & Keamanan Data"><span>♢</span><b>Privasi &amp; Keamanan Data</b><i>›</i></button><button data-setting="Pusat Bantuan"><span>ⓘ</span><b>Pusat Bantuan</b><i>›</i></button></div></section>
+<nav class="bottom-nav"><button class="nav-item active" data-page="home"><span>⌂</span><small>Home</small></button><button class="nav-item" data-page="coach"><span>♡</span><small>NLP Coach</small></button><button class="nav-item" data-page="videos"><span>▷</span><small>Videos</small></button><button class="nav-item" data-page="profile"><span>♙</span><small>Profil</small></button></nav><div id="toast" class="toast"></div></main><script src="app.js"></script></body></html>
